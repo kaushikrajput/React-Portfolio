@@ -22,7 +22,6 @@
     width: 100%;
 
     .skills-icon {
-    
       margin: 0;
       padding: 0;
       position: relative;
@@ -56,5 +55,11 @@
         }
       }
     }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .skills .text-center .skills-icon {
+    grid-template-columns: repeat(2, 1fr);    
   }
 }

@@ -10,7 +10,7 @@ export const PROJECTS = [
     },
     {
       id:2,
-      title: "Skinfotechies",
+      title: "Agency landing page",
       description: "The Skinfotechies",
       about: "This is the Skinfotechies website ",
       link: "https://skinfotechies.netlify.app/",
@@ -19,7 +19,7 @@ export const PROJECTS = [
     },
     {
       id:3,
-      title: "Tarvel-site",
+      title: "Tarvel-page",
       description: "The Tarvel",
       about: "This is the Travel Website ",
       link: "https://travelrry.netlify.app/",
