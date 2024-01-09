@@ -1,0 +1,63 @@
+export const PROJECTS = [
+    {
+      id:1,
+      title: "Dashboard",
+      description: "The Dashboard",
+      about: "This is the Dashboard ",
+      link: "https://panell.netlify.app/",
+      imageUrl: "/assets/project4.jpeg",
+      date:"",
+    },
+    {
+      id:2,
+      title: "Skinfotechies",
+      description: "The Skinfotechies",
+      about: "This is the Skinfotechies website ",
+      link: "https://skinfotechies.netlify.app/",
+      imageUrl: "/assets/project1.jpeg",
+      date:"",
+    },
+    {
+      id:3,
+      title: "Tarvel-site",
+      description: "The Tarvel",
+      about: "This is the Travel Website ",
+      link: "https://travelrry.netlify.app/",
+      imageUrl: "/assets/project2.png",
+      date:"",
+    },
+    {
+      id:4,
+      title: "Redux-store",
+      description: "The Redux-Toolkit",
+      about: "This is the Redux-Toolkit Test ",
+      link: "https://rtk-shop.netlify.app/",
+      imageUrl: "/assets/project3.jpeg",
+      
+    },
+    {
+      id:5,
+      title: "E-Commerce",
+      description: "Context ",
+      about: "This is the E-commerce store",
+      link: "https://e-commerce-rage.vercel.app/",
+      imageUrl: "/assets/project6.jpeg",
+    },
+    {
+      id:6,
+      title: "context-store",
+      description: "Context ",
+      about: "This is the context-api store",
+      link: "https://context-store.netlify.app/",
+      imageUrl: "/assets/project5.jpeg",
+    },
+    {
+      id:7,
+      title: "Weather-app",
+      description: "The Weather",
+      about: "This is the Weather app ",
+      link: "https://weatherzen.netlify.app/",
+      imageUrl: "/assets/project7.jpeg",
+    },
+  ];
+  

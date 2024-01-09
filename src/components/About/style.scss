@@ -1,7 +1,10 @@
 .about {
-  height: 450px;
   background: #fff;
   margin-bottom:65px;
+
+  .container{
+    padding: 0 15px;
+  }
 
   h2 {
     padding-top: 5%;
@@ -72,6 +75,7 @@
           flex: 1 1 auto;
 
           .wave {
+            font-weight: 500;
             font-size: 160%;
           }
         }

@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.scss";
+import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
   return (
@@ -26,6 +27,17 @@ const Hero = () => {
         </svg>
         <br />
         <h2>Kaushik Rajput</h2>
+        <p>
+          <Typewriter
+            words={["Front-End Developer",'Software developer']}
+            loop={true}
+            cursor={true}
+            cursorStyle="|"
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+          />
+        </p>
       </div>
     </header>
   );
