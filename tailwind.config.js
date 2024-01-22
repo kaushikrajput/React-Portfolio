@@ -9,6 +9,7 @@ export default {
         "my-bg2": "#14131a",
         "my-box-shadow": "0 10px 20px rgba(0, 0, 0, 0.7)",
         "my-scale": "(1.01)",
+        "btnHighlight": "#2bd576",
       },
     },
   },

@@ -5,7 +5,7 @@ import { PROJECTS } from "../../PROJECT-DATA.JS";
 const Projects = () => {
   return (
     <div className="projects bg-my-bg2 pb-10">
-      <h2 className="text-my-gray p-16 text-lg font-normal tracking-widest uppercase text-center">
+      <h2 className="text-my-gray p-16 text-lg font-normal tracking-widest uppercase text-start">
         Projects
       </h2>
       <div className="projects-card grid gap-3 grid-cols-3 px-4">

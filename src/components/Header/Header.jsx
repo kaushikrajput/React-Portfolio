@@ -6,7 +6,7 @@ import { Typewriter } from "react-simple-typewriter";
 const Hero = () => {
   return (
     <header>
-      <div className="hero flex flex-col items-center justify-center">
+      <div className="hero flex flex-col items-center justify-center ">
         <svg
         
           xmlns="http://www.w3.org/2000/svg"
