@@ -4,7 +4,7 @@ import "./style.scss";
 const Skills = () => {
   return (
     <div className="skills">
-      <h2>skills</h2>
+      <h2 className="text-my-gray">What i know</h2>
       <div className="text-center">
         <ul className="skills-icon">
           <li className="item">

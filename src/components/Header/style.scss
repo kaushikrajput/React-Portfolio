@@ -4,27 +4,27 @@ header {
   width: 100%;
   text-align: center;
   overflow: hidden;
-  background-color: #e9d5a1;
+  background-color: #14131a;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 60px;
   display: block;
 
   .hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
 
     .header-icon {
-      color: #212529;
-      height: 150px;
-      width: 150px;
+      // color: rgb(228 228 231);
+      // height: 150px;
+      // width: 150px;
       text-align: center;
     }
 
     h2 {
-      color: #353239;
+      color: rgb(228 228 231);
       width: 100%;
       font-size: 38px;
       font-weight: 800;
@@ -34,7 +34,7 @@ header {
     }
     p {
       font-size: 28px;
-      color: #353239;
+      color: rgb(228 228 231);
       font-weight: 300;
       text-align: center;
       text-transform: uppercase;

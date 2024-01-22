@@ -2,11 +2,13 @@ import React from "react";
 import "./style.scss";
 import { Typewriter } from "react-simple-typewriter";
 
+
 const Hero = () => {
   return (
     <header>
-      <div className="hero">
+      <div className="hero flex flex-col items-center justify-center">
         <svg
+        
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
           aria-hidden="true"
@@ -15,7 +17,7 @@ const Hero = () => {
           height="1em"
           preserveAspectRatio="xMidYMid meet"
           viewBox="0 0 32 32"
-          className="iconify header-icon"
+          className="iconify header-icon text-my-gray h-36 w-36" 
           data-icon="la:laptop-code"
           data-inline="false"
           style={{ transform: "rotate(360deg)" }}
@@ -26,10 +28,10 @@ const Hero = () => {
           ></path>
         </svg>
         <br />
-        <h2>Kaushik Rajput</h2>
+        <h2 className="">Kaushik Rajput</h2>
         <p>
           <Typewriter
-            words={["Front-End Developer",'Software developer']}
+            words={["Front-End Developer"]}
             loop={true}
             cursor={true}
             cursorStyle="|"
